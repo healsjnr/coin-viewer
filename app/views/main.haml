@@ -1,0 +1,16 @@
+%div.container
+  %div.row
+    %div.col-md-6
+      %form{ :id => 'coin-data-form', :method => 'get', :role => 'form' }
+        %div.row
+          %div.form-group
+            %label{ :for => 'coin-set'} Coin Set:
+            %input{ :id => 'coin-set', :class => 'form-control', :name => 'coin-set', :type => 'text', :value => ''}
+          %button{ :type => 'submit', :class => 'btn btn-success'} Submit
+%div.container
+  %div.row
+    %div
+      %p
+  %div.row
+    %div{:id => 'map-canvas'}
+  %div.row
