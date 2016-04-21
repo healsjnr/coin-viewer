@@ -5,7 +5,7 @@ var currentLocation = new google.maps.LatLng(51.543, -1.1649);
 
 function initialize() {
 
-  $('#session-data-form').submit(function( event ) {
+  $('#coin-data-form').submit(function( event ) {
     getContent()
     event.preventDefault();
   });
